@@ -6,6 +6,6 @@ public class Main {
       RWOnly obj = new RWOnly();
      // obj.name = "mayuri"; //cannot access private member
       obj.setName("mayuri");
-      obj.getName();
+      System.out.println(obj.getName());
   }
 }
